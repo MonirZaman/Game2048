@@ -1,4 +1,3 @@
-Game 2048:
 <a href="2048Game.com">2048</a> is a single-player puzzle game in which the objective is to slide numbered tiles on a grid 
 to combine them and create a tile with the number 2048. This project is an implementation of the game 
 mechanics in Java. 
@@ -26,17 +25,17 @@ Class Play: Contains the workflow of the game. It displays the board,<br />
 		    specified direction. It uses the merge method which is a recursive method.<br />
 		    merge method merges value s to e and call itself for e and the previous position of e.<br />
             nextPos and prevPos return next position of the current cell in opposite <br />
-            direction from each other.<br />
+            direction from each other.<br /><br />
   
 
-class Board: contains data structure and methods to store and maintain the board.
-			 An NbyN array is used as the board. A hash map is used to map values to
-			 the cells where they apprear. 
-			 Any cell address in the board is represented in two ways: using Position class
-			 instance that contains row and column info. The second way combines the row and
-			 column number using arithmetic. compressCellReference method performs this operation 
-			 while decompressCellReference converts a single number to a Position object.
+class Board: contains data structure and methods to store and maintain the board.<br />
+			 An NbyN array is used as the board. A hash map is used to map values to<br />
+			 the cells where they appear. <br />
+			 Any cell address in the board is represented in two ways: using Position class<br />
+			 instance that contains row and column info. The second way combines the row and<br />
+			 column number using arithmetic. compressCellReference method performs this operation <br />
+			 while decompressCellReference converts a single number to a Position object.<br /><br />
 			 
-class DirectionStartEndPoints: stores information such as start and end position for 
-             different move directions. For example, for right direction, we start at
-             cell 0,3 and end at 3,0.
+class DirectionStartEndPoints: stores information such as start and end position for <br />
+             different move directions. For example, for right direction, we start at<br />
+             cell 0,3 and end at 3,0.<br />
