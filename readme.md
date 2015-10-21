@@ -1,16 +1,16 @@
 <a href="2048Game.com">2048</a> is a single-player puzzle game in which the objective is to slide numbered tiles on a grid 
 to combine them and create a tile with the number 2048. This project is an implementation of the game 
-mechanics in Java. 
+in Java. 
 
 Rules of 2048<br />
-•The game board is a 4×4 grid of tiles, each tile is either occupied with a number, or empty.<br />
-•The game board is initialized with two randomly placed tiles, each of which can be either 2 (90% probability) or 4 (10% probability).<br />
-•You may move in one of four directions: up, left, down, right.<br />
-•You may only move in a given direction if the move would change the state of the board.<br />
-•While moving, the tiles will slide as far as possible in the chosen direction until they are stopped by another tile or the edge of the grid. If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles that collided. The resulting tile cannot merge with another tile again in the same move.<br />
-•After moving, a new tile is set to either 2 (90% probability) or 4 (10% probability) at a random empty location.<br />
-•If a 2048 tile appears anywhere on the board, the player wins.<br />
-•If all tiles have numbers, and there is no valid move, the game is lost.<br />
+â€¢The game board is a 4Ã—4 grid of tiles, each tile is either occupied with a number, or empty.<br />
+â€¢The game board is initialized with two randomly placed tiles, each of which can be either 2 (90% probability) or 4 (10% probability).<br />
+â€¢You may move in one of four directions: up, left, down, right.<br />
+â€¢You may only move in a given direction if the move would change the state of the board.<br />
+â€¢While moving, the tiles will slide as far as possible in the chosen direction until they are stopped by another tile or the edge of the grid. If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles that collided. The resulting tile cannot merge with another tile again in the same move.<br />
+â€¢After moving, a new tile is set to either 2 (90% probability) or 4 (10% probability) at a random empty location.<br />
+â€¢If a 2048 tile appears anywhere on the board, the player wins.<br />
+â€¢If all tiles have numbers, and there is no valid move, the game is lost.<br />
 
 Author of the solution: Monir Zaman<br />
 Email: mznDOTmunnaATgmailDOTcom<br />
