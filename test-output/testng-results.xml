@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32" started-at="2015-10-11T10:45:35Z" finished-at="2015-10-11T10:45:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32" started-at="2015-10-11T10:45:35Z" finished-at="2015-10-11T10:45:35Z">
+      <class name="Test.TestFunctionality">
+        <test-method status="PASS" signature="TestNextPosMethod()[pri:0, instance:Test.TestFunctionality@1ef7fe8e]" name="TestNextPosMethod" duration-ms="16" started-at="2015-10-11T04:45:35Z" finished-at="2015-10-11T04:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNextPosMethod -->
+      </class> <!-- Test.TestFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
